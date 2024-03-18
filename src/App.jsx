@@ -11,7 +11,7 @@ function App() {
     // setData((prevData) => {
     //   return myRef.current.value ? myRef.current.value : prevData;
     // });
-    setData(myRef.current.value);
+    setData(myRef.current.value.trim());
     myRef.current.value = "";
   }
 
